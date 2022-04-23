@@ -1,0 +1,7 @@
+#N canvas 442 356 574 161 12;
+#X obj 62 62 expr 6*$f1*$f1*$f1*$f1*$f1 - 15*$f1*$f1*$f1*$f1 + 10*$f1*$f1*$f1
+, f 64;
+#X obj 62 34 inlet;
+#X obj 62 90 outlet;
+#X connect 0 0 2 0;
+#X connect 1 0 0 0;

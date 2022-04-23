@@ -1,0 +1,16 @@
+#N canvas 234 234 414 245 12;
+#X obj 50 45 inlet;
+#X obj 190 45 inlet;
+#X obj 50 131 expr $f1 * $f3 + $f2 * $f4;
+#X text 237 44 vector 2;
+#X text 96 44 vector 1;
+#X obj 50 175 outlet;
+#X obj 190 92 unpack;
+#X obj 50 92 unpack;
+#X connect 0 0 7 0;
+#X connect 1 0 6 0;
+#X connect 2 0 5 0;
+#X connect 6 0 2 2;
+#X connect 6 1 2 3;
+#X connect 7 0 2 0;
+#X connect 7 1 2 1;
