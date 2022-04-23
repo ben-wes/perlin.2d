@@ -7,5 +7,5 @@ The abstraction perlin.2d expects the arguments:
 * persistance value
 * "normalize" flag if you want to ensure that the sum of all octaves will never exceed 1
 
-Explanations on Perlin noise (and also the tutorial that this abstraction is based on:
+Explanations on Perlin noise (and also the tutorial that this abstraction is based on):
 * https://rtouti.github.io/graphics/perlin-noise-algorithm
