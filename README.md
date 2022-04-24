@@ -1,5 +1,5 @@
 # perlin.2d
-2D perlin noise for Pure Data (pd) - control signal input/output
+2D perlin noise for Pure Data (Pd) - control signal input/output
 
 Install by adding a folder `perlin.2d` with these files to one of pd's paths.
 The abstraction `perlin.2d` expects the arguments:
